@@ -1,0 +1,6 @@
+Students application using node.js and postgreesql
+------ npm init -y - intilize project
+------ npm i --save express - framework for backend
+------ npm i pg - database connection
+
+
