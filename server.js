@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swagger));
 
 
-app.use("https://student-bg9f.onrender.com/api/v1/students", studentRoutes);
+app.use("/api/v1/students", studentRoutes);
 
 
 
